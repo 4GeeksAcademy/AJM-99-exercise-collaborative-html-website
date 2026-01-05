@@ -1,5 +1,5 @@
 #header {
-    background-image: url('https://t3.ftcdn.net/jpg/14/41/67/26/360_F_1441672618_IORPW8GAR1xc5SrQzcBfqQtX9Z874Tod.jpg');
+    background-image: url('https://i.redd.it/xdc6rxp6yt021.png');
     background-size: cover;
     background-position:left;
     background-repeat: no-repeat;
@@ -16,8 +16,27 @@
     justify-content: center;
     align-content: center;
     text-align: center;
-    font-weight: 32px;
+    font-family: "Tagesschrift", system-ui;
+    text-shadow: 0 0 3px rgb(255, 255, 255);
+    text-decoration-line: underline overline;
     color: rgba(255, 0, 0, 0.767);
-    font-weight: bold;
-    background-color: rgba(255, 255, 255, 0.527);
+    background-color: rgba(170, 169, 169, 0.315);
+    border-radius: 10px;
+}
+
+#firstHeading{
+    margin-top: 80px;
+    border-top: solid 3px rgba(255, 0, 0, 0.315);
+}
+
+#demogorgon{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+}
+
+#demogorgon img{
+    object-fit: cover;
 }
