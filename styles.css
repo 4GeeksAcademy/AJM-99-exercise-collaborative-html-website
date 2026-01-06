@@ -24,9 +24,12 @@
     border-radius: 10px;
 }
 
-#firstHeading{
+.heading{
     margin-top: 80px;
     border-top: solid 3px rgba(255, 0, 0, 0.315);
+    padding-top: 50px;
+    gap: 200px;
+    justify-content: center;
 }
 
 #demogorgon{
@@ -40,3 +43,19 @@
 #demogorgon img{
     object-fit: cover;
 }
+
+#characters img{
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    display: flex;
+    object-fit: cover;
+    padding-bottom: 10%;
+}
+#descriptions h4{
+    color: red;
+    padding-top: 10%;
+    text-shadow: 0 0 3px rgb(0, 0, 0);
+}
+
